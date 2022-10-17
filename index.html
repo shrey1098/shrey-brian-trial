@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <h1 class="title" id="title"> survey-form.freecodecamp.rocks </h1>
+    <title>survey-form</title>
+    <div>
+        <p id="description"> freeCodeCamp Survey Form
+            Thank you for taking the time to help us improve the platform</p>
+    </div>
+    <div>
+        <form id="survey-form">
+
+            <label for="for=" fname id="name-label"> Your Name : </label>
+            <input type="text" id="name" name="fname" placeholder="Enter Name" required><br><br>
+            <label for="for=" femail id="email-label"> Enter email : </label>
+            <input type="email" name="femail" id="email" placeholder="Enter Email" required> <br><br>
+            <label for="for=" fnumber id="number-label"> Enter age : </label>
+            <input type="number" name="fnumber" id="number" placeholder="Enter Age" min="10" max="99" required>
+            <br><br>
+            <label>Slect your option</label>
+            <select id="dropdown" name="dropdown">
+                <option value="dropdown">Dropdown</option>
+                <option value="dropdown1">Dropdown1</option>
+                <option value="dropdown2">Dropdown2</option>
+                <option value="dropdown3">Dropdown3</option>
+            </select>
+            <br><br>
+            <div class="form-group">
+                Gender:
+                <br>
+                <label>
+                    <input type="radio" name="radio-buttons" value="radio1" class="input-radio" checked>
+                    Male
+                </label>
+                <label>
+                    <input type="radio" name="radio-buttons" value="radio2" class="input-radio" checked>
+                    Female
+                </label>
+                <label>
+                    <input type="radio" name="radio-buttons" value="radio3" class="input-radio" checked>
+                    Other
+                </label>
+            </div>
+            <br><br>
+            <label>Select you prefered Courses: </label>
+            <div>
+                <input type="checkbox" id="course1" name="course1" value="course1">
+                <label for="course1">HTML course</label>
+                <input type="checkbox" id="course2" name="course2" value="course2">
+                <label for="course2">React Course</label>
+            </div>
+            <br><br>
+            <label>Ask any queries?</label><br>
+            <textarea></textarea>
+            <br><br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+
+</head>
+
+</html>
